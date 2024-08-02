@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://dunki-demo.myshopify.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://dunki-demo.myshopify.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://dunki-demo.myshopify.com/collections/most-viewed.atom"/>
+  <title>Dunki</title>
+  <updated>2023-10-21T07:34:18-04:00</updated>
+  <author>
+    <name>Dunki</name>
+  </author>
+  <entry>
+    <id>https://dunki-demo.myshopify.com/products/6885545214032</id>
+    <published>2023-10-21T07:34:18-04:00</published>
+    <updated>2023-10-21T07:34:18-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://dunki-demo.myshopify.com/products/tales-from-the-forgotten-realms"/>
+    <title>Tales from the Forgotten Realms</title>
+    <s:type>Toni Morrison</s:type>
+    <s:vendor>Historical</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1182/5648/files/p6_53765593-0f7a-4dbc-bd4c-2ac6538b9447.png?v=1697898172"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Historical<br>
+        <strong>Type: </strong>Toni Morrison<br>
+        <strong>Price: </strong>
+            92.60 - 98.87
+            <a href="https://dunki-demo.myshopify.com/products/tales-from-the-forgotten-realms">(6 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="des des_1"><span>Captivate with this shirt’s versatile urban look that works as well at happy hour as it does in the back yard. The real mother of pearl buttons and embroidered crocodile complete its elegant appeal.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span></p>
+<img alt="" src="https://cdn.shopify.com/s/files/1/0256/4594/0810/files/image_des.png?v=1615432854">
+<ul class="style_type_1">
+<li>MACHINE WASH AT MAX.TEMP. 30° C - NORMAL PROCESS</li>
+<li>DO NOT BLEACH</li>
+<li>DO NOT TUMBLE DRY</li>
+<li>IRON AT MAX. TEMP. OF 110° C WITHOUT STEAM</li>
+<li>DO NOT DRY CLEAN</li>
+</ul>
+<br>
+<h4>Sample Ordered Lista</h4>
+<ol class="style_type_2">
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ol>
+<br>
+<h4>Sample Paragraph Text</h4>
+<p class="des des_2">Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summe!Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Historical</s:tag>
+    <s:tag>New</s:tag>
+    <s:tag>Trends</s:tag>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885545214032</id>
+      <title>Black / S</title>
+      <s:price currency="GBP">92.60</s:price>
+      <s:sku>s00b</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885545214032</id>
+      <title>Black / M</title>
+      <s:price currency="GBP">92.60</s:price>
+      <s:sku>b0001</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885545214032</id>
+      <title>Black / XS</title>
+      <s:price currency="GBP">92.60</s:price>
+      <s:sku>sx00b</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885545214032</id>
+      <title>Blue / S</title>
+      <s:price currency="GBP">92.60</s:price>
+      <s:sku>s00bl</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885545214032</id>
+      <title>Blue / M</title>
+      <s:price currency="GBP">98.87</s:price>
+      <s:sku>bl002</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885545214032</id>
+      <title>Blue / XS</title>
+      <s:price currency="GBP">92.60</s:price>
+      <s:sku>sx00bl</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://dunki-demo.myshopify.com/products/6885545115728</id>
+    <published>2023-10-21T07:34:09-04:00</published>
+    <updated>2023-10-21T07:34:09-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://dunki-demo.myshopify.com/products/chronicles-of-celestial-realms"/>
+    <title>Chronicles of Celestial Realms</title>
+    <s:type>Isabel Allende</s:type>
+    <s:vendor>Sage Isaias</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1182/5648/files/p11_839563f9-8797-449c-a4ae-0e4aefce618e.png?v=1697899506"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sage Isaias<br>
+        <strong>Type: </strong>Isabel Allende<br>
+        <strong>Price: </strong>
+            619.34
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="des des_1"><span>Captivate with this shirt’s versatile urban look that works as well at happy hour as it does in the back yard. The real mother of pearl buttons and embroidered crocodile complete its elegant appeal.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span></p>
+<img alt="" src="https://cdn.shopify.com/s/files/1/0256/4594/0810/files/image_des.png?v=1615432854">
+<ul class="style_type_1">
+<li>MACHINE WASH AT MAX.TEMP. 30° C - NORMAL PROCESS</li>
+<li>DO NOT BLEACH</li>
+<li>DO NOT TUMBLE DRY</li>
+<li>IRON AT MAX. TEMP. OF 110° C WITHOUT STEAM</li>
+<li>DO NOT DRY CLEAN</li>
+</ul>
+<br>
+<h4>Sample Ordered Lista</h4>
+<ol class="style_type_2">
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ol>
+<br>
+<h4>Sample Paragraph Text</h4>
+<p class="des des_2">Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summe!Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Accessories</s:tag>
+    <s:tag>Best seller</s:tag>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885545115728</id>
+      <title>Blue</title>
+      <s:price currency="GBP">619.34</s:price>
+      <s:sku>es-24392426</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885545115728</id>
+      <title>Linen</title>
+      <s:price currency="GBP">619.34</s:price>
+      <s:sku>es-24392427</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://dunki-demo.myshopify.com/products/6885544853584</id>
+    <published>2023-10-21T07:33:42-04:00</published>
+    <updated>2023-10-21T07:33:42-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://dunki-demo.myshopify.com/products/secrets-of-the-velvet-quill"/>
+    <title>Secrets of the Velvet Quill</title>
+    <s:type>Ernest Hemingway</s:type>
+    <s:vendor>James Dylan</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1182/5648/files/p12.png?v=1697900030"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>James Dylan<br>
+        <strong>Type: </strong>Ernest Hemingway<br>
+        <strong>Price: </strong>
+            471.46
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="des des_1"><span>Captivate with this shirt’s versatile urban look that works as well at happy hour as it does in the back yard. The real mother of pearl buttons and embroidered crocodile complete its elegant appeal.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span></p>
+<img alt="" src="https://cdn.shopify.com/s/files/1/0256/4594/0810/files/image_des.png?v=1615432854">
+<ul class="style_type_1">
+<li>MACHINE WASH AT MAX.TEMP. 30° C - NORMAL PROCESS</li>
+<li>DO NOT BLEACH</li>
+<li>DO NOT TUMBLE DRY</li>
+<li>IRON AT MAX. TEMP. OF 110° C WITHOUT STEAM</li>
+<li>DO NOT DRY CLEAN</li>
+</ul>
+<br>
+<h4>Sample Ordered Lista</h4>
+<ol class="style_type_2">
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ol>
+<br>
+<h4>Sample Paragraph Text</h4>
+<p class="des des_2">Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summe!Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Jackets</s:tag>
+    <s:tag>Tops</s:tag>
+    <s:tag>Women</s:tag>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544853584</id>
+      <title>Silver</title>
+      <s:price currency="GBP">471.46</s:price>
+      <s:sku>es-77556905</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544853584</id>
+      <title>Gold</title>
+      <s:price currency="GBP">471.46</s:price>
+      <s:sku>es-77556906</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544853584</id>
+      <title>Blue</title>
+      <s:price currency="GBP">471.46</s:price>
+      <s:sku>es-77556907</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://dunki-demo.myshopify.com/products/6885544624208</id>
+    <published>2023-10-21T07:33:11-04:00</published>
+    <updated>2023-10-21T07:33:11-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://dunki-demo.myshopify.com/products/the-enigmatic-labyrinth-story"/>
+    <title>The Enigmatic Labyrinth Story</title>
+    <s:type>H.G. Wells</s:type>
+    <s:vendor>Erik Martin</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1182/5648/files/p8_55ace713-4eb3-4055-9e88-531f20edf283.png?v=1697898480"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Erik Martin<br>
+        <strong>Type: </strong>H.G. Wells<br>
+        <strong>Price: </strong>
+            817.30
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="des des_1"><span>Captivate with this shirt’s versatile urban look that works as well at happy hour as it does in the back yard. The real mother of pearl buttons and embroidered crocodile complete its elegant appeal.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span></p>
+<img alt="" src="https://cdn.shopify.com/s/files/1/0256/4594/0810/files/image_des.png?v=1615432854">
+<ul class="style_type_1">
+<li>MACHINE WASH AT MAX.TEMP. 30° C - NORMAL PROCESS</li>
+<li>DO NOT BLEACH</li>
+<li>DO NOT TUMBLE DRY</li>
+<li>IRON AT MAX. TEMP. OF 110° C WITHOUT STEAM</li>
+<li>DO NOT DRY CLEAN</li>
+</ul>
+<br>
+<h4>Sample Ordered Lista</h4>
+<ol class="style_type_2">
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ol>
+<br>
+<h4>Sample Paragraph Text</h4>
+<p class="des des_2">Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summe!Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Trends</s:tag>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544624208</id>
+      <title>Black</title>
+      <s:price currency="GBP">817.30</s:price>
+      <s:sku>t-98845767</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544624208</id>
+      <title>Blue</title>
+      <s:price currency="GBP">817.30</s:price>
+      <s:sku>t-98845768</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544624208</id>
+      <title>White</title>
+      <s:price currency="GBP">817.30</s:price>
+      <s:sku>t-98845769</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://dunki-demo.myshopify.com/products/6885544427600</id>
+    <published>2023-10-21T07:32:54-04:00</published>
+    <updated>2023-10-21T07:32:54-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://dunki-demo.myshopify.com/products/silant-rain-we-are-together"/>
+    <title>Silant Rain We Are Together</title>
+    <s:type>Virginia Woolf</s:type>
+    <s:vendor>Sage Isaias</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1182/5648/files/p13_ff10421d-3bcf-4c91-8bdf-824e9b292b5b.png?v=1697900157"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sage Isaias<br>
+        <strong>Type: </strong>Virginia Woolf<br>
+        <strong>Price: </strong>
+            90.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="des des_1"><span>Captivate with this shirt’s versatile urban look that works as well at happy hour as it does in the back yard. The real mother of pearl buttons and embroidered crocodile complete its elegant appeal.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span></p>
+<img alt="" src="https://cdn.shopify.com/s/files/1/0256/4594/0810/files/image_des.png?v=1615432854">
+<ul class="style_type_1">
+<li>MACHINE WASH AT MAX.TEMP. 30° C - NORMAL PROCESS</li>
+<li>DO NOT BLEACH</li>
+<li>DO NOT TUMBLE DRY</li>
+<li>IRON AT MAX. TEMP. OF 110° C WITHOUT STEAM</li>
+<li>DO NOT DRY CLEAN</li>
+</ul>
+<br>
+<h4>Sample Ordered Lista</h4>
+<ol class="style_type_2">
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ol>
+<br>
+<h4>Sample Paragraph Text</h4>
+<p class="des des_2">Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summe!Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>New</s:tag>
+    <s:tag>Pendant</s:tag>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544427600</id>
+      <title>S / Black</title>
+      <s:price currency="GBP">90.00</s:price>
+      <s:sku>h-95449104</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544427600</id>
+      <title>S / Silver</title>
+      <s:price currency="GBP">90.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544427600</id>
+      <title>S / Gold</title>
+      <s:price currency="GBP">90.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544427600</id>
+      <title>M / Black</title>
+      <s:price currency="GBP">90.00</s:price>
+      <s:sku>h-95449105</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544427600</id>
+      <title>M / Silver</title>
+      <s:price currency="GBP">90.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544427600</id>
+      <title>M / Gold</title>
+      <s:price currency="GBP">90.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544427600</id>
+      <title>L / Black</title>
+      <s:price currency="GBP">90.00</s:price>
+      <s:sku>h-95449106</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544427600</id>
+      <title>L / Silver</title>
+      <s:price currency="GBP">90.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544427600</id>
+      <title>L / Gold</title>
+      <s:price currency="GBP">90.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://dunki-demo.myshopify.com/products/6885544198224</id>
+    <published>2023-10-21T07:32:39-04:00</published>
+    <updated>2023-10-21T07:32:39-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://dunki-demo.myshopify.com/products/mystery-of-the-dark-village"/>
+    <title>Mystery Of The Dark Village</title>
+    <s:type>John Steinbeck</s:type>
+    <s:vendor>Erik Martin</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1182/5648/files/p10.png?v=1697899306"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Erik Martin<br>
+        <strong>Type: </strong>John Steinbeck<br>
+        <strong>Price: </strong>
+            821.61
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="des des_1"><span>Captivate with this shirt’s versatile urban look that works as well at happy hour as it does in the back yard. The real mother of pearl buttons and embroidered crocodile complete its elegant appeal.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span></p>
+<img src="https://cdn.shopify.com/s/files/1/0256/4594/0810/files/image_des.png?v=1615432854" alt="">
+<ul class="style_type_1">
+<li>MACHINE WASH AT MAX.TEMP. 30° C - NORMAL PROCESS</li>
+<li>DO NOT BLEACH</li>
+<li>DO NOT TUMBLE DRY</li>
+<li>IRON AT MAX. TEMP. OF 110° C WITHOUT STEAM</li>
+<li>DO NOT DRY CLEAN</li>
+</ul>
+<br>
+<h4>Sample Ordered Lista</h4>
+<ol class="style_type_2">
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ol>
+<br>
+<h4>Sample Paragraph Text</h4>
+<p class="des des_2">Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summe!Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+<div style="position: absolute; left: 36px; top: 652.578px;" id="gtx-trans">
+<div class="gtx-trans-icon"></div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Kids</s:tag>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544198224</id>
+      <title>Pink</title>
+      <s:price currency="GBP">821.61</s:price>
+      <s:sku>54013995</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544198224</id>
+      <title>Gold</title>
+      <s:price currency="GBP">821.61</s:price>
+      <s:sku>54013996</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://dunki-demo.myshopify.com/products/6885544132688</id>
+    <published>2023-10-21T07:32:26-04:00</published>
+    <updated>2023-10-21T07:32:26-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://dunki-demo.myshopify.com/products/our-familay-mysteries-ever"/>
+    <title>Our Familay Mysteries Ever</title>
+    <s:type>James Patterson</s:type>
+    <s:vendor>James Dylan</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1182/5648/files/p9_15c65cb4-1c8c-4610-be41-5b59097f5188.png?v=1697899180"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>James Dylan<br>
+        <strong>Type: </strong>James Patterson<br>
+        <strong>Price: </strong>
+            59.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="des des_1">Captivate with this shirt’s versatile urban look that works as well at happy hour as it does in the back yard. The real mother of pearl buttons and embroidered crocodile complete its elegant appeal.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.<br></p>
+<img src="https://cdn.shopify.com/s/files/1/0256/4594/0810/files/image_des.png?v=1615432854" alt="">
+<ul class="style_type_1">
+<li>MACHINE WASH AT MAX.TEMP. 30° C - NORMAL PROCESS</li>
+<li>DO NOT BLEACH</li>
+<li>DO NOT TUMBLE DRY</li>
+<li>IRON AT MAX. TEMP. OF 110° C WITHOUT STEAM</li>
+<li>DO NOT DRY CLEAN</li>
+</ul>
+<br>
+<h4>Sample Ordered Lista</h4>
+<ol class="style_type_2">
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ol>
+<br>
+<h4>Sample Paragraph Text</h4>
+<p class="des des_2">Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summe!Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+<p><span>[/product_description] [countdown]2025/05/24[/countdown]</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Trends</s:tag>
+    <s:tag>Women</s:tag>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544132688</id>
+      <title>Black</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>tiu-68649692</s:sku>
+      <s:grams>3000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544132688</id>
+      <title>Gold</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>tiu-68649693</s:sku>
+      <s:grams>3000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885544132688</id>
+      <title>Pink</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>tiu-68649694</s:sku>
+      <s:grams>3000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://dunki-demo.myshopify.com/products/6885543870544</id>
+    <published>2023-10-21T07:32:05-04:00</published>
+    <updated>2023-10-21T07:32:05-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://dunki-demo.myshopify.com/products/some-where-in-the-city"/>
+    <title>Some Where In The City</title>
+    <s:type>Agatha Christie</s:type>
+    <s:vendor>James Dylan</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1182/5648/files/p7_c50bf7f1-51cd-4b2a-8254-b7aa45cbbd1d.png?v=1697898316"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>James Dylan<br>
+        <strong>Type: </strong>Agatha Christie<br>
+        <strong>Price: </strong>
+            59.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="des des_1">Captivate with this shirt’s versatile urban look that works as well at happy hour as it does in the back yard. The real mother of pearl buttons and embroidered crocodile complete its elegant appeal.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.<br></p>
+<img src="https://cdn.shopify.com/s/files/1/0256/4594/0810/files/image_des.png?v=1615432854" alt="">
+<ul class="style_type_1">
+<li>MACHINE WASH AT MAX.TEMP. 30° C - NORMAL PROCESS</li>
+<li>DO NOT BLEACH</li>
+<li>DO NOT TUMBLE DRY</li>
+<li>IRON AT MAX. TEMP. OF 110° C WITHOUT STEAM</li>
+<li>DO NOT DRY CLEAN</li>
+</ul>
+<br>
+<h4>Sample Ordered Lista</h4>
+<ol class="style_type_2">
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ol>
+<br>
+<h4>Sample Paragraph Text</h4>
+<p class="des des_2">Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summe!Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicu lus mus. Donec quam felis, ultri cies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+<p><span>[/product_description] [countdown]2025/05/24[/countdown]</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>City</s:tag>
+    <s:tag>Trends</s:tag>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885543870544</id>
+      <title>Black</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku/>
+      <s:grams>3000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885543870544</id>
+      <title>Gold</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku/>
+      <s:grams>3000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://dunki-demo.myshopify.com/products/6885543870544</id>
+      <title>Pink</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku/>
+      <s:grams>3000</s:grams>
+    </s:variant>
+  </entry>
+</feed>
