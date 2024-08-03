@@ -1,3 +1,7 @@
+<?php
+include_once ('include/functions.php');
+?>
+
 <!doctype html>
 <!--[if IE 9]>
 <html class="ie9 no-js supports-no-cookies" lang="en"> <![endif]-->
