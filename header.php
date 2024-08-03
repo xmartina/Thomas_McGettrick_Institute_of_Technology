@@ -15,14 +15,7 @@ include_once ('include/functions.php');
     <meta name="theme-color" content="#dd321e">
     <link rel="canonical" href="index.html"><!-- Title and description -->
 
-    <title>
-        Online Store
-
-
-        &ndash; Dunki
-
-    </title><!-- Helpers --><!-- /snippets/social-meta-tags.liquid -->
-
+    <title><?=$site_name?> | <?=$site_dec?></title>
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Online Store">
