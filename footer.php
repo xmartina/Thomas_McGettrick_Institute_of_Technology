@@ -7,8 +7,8 @@
                 <div class="footer-top-2 pb-20 footer_style_5">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="footer-widget mb-40"><a href="index.html">
-                                    <img src="cdn/shop/files/logo_w_medium5558.png?v=1698857590" alt="">
+                            <div class="footer-widget mb-40"><a href="/">
+                                    <img src="cdn/shop/files/<?=$footer_logo?>" alt="">
                                 </a>
                                 <div class="subscribe-style"><p><?=$footer_dec?></p></div>
 

@@ -1287,8 +1287,7 @@ include_once ('include/functions.php');
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo text-left">
                                 <a href="index.html" class="theme-logo">
-                                    <img src="cdn/shop/files/logo1_130xbe39.png?v=1697996490" alt="Dunki"
-                                         srcset="//dunki-demo.myshopify.com/cdn/shop/files/logo1_130x.png?v=1697996490 1x, //dunki-demo.myshopify.com/cdn/shop/files/logo1_130x@2x.png?v=1697996490 2x">
+                                    <img src="cdn/shop/files/<?=$logo?>" alt="TMIT logo">
                                 </a></div>
                         </div>
 

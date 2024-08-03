@@ -8,6 +8,7 @@ $row = $result->fetch_assoc();
 $site_name = $row["site_name"];
 $site_dec = $row["site_dec"];
 $logo = $row["logo"];
+$footer_logo = $row["footer_logo"];
 $favicon = $row["favicon"];
 $footer_dec = $row["footer_dec"];
 $footer_copyright = $row["footer_copyright"];
