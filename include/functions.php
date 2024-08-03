@@ -10,3 +10,4 @@ $site_dec = $row["site_dec"];
 $logo = $row["logo"];
 $favicon = $row["favicon"];
 $footer_dec = $row["footer_dec"];
+$footer_copyright = $row["footer_copyright"];

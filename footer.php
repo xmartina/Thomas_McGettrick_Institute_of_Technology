@@ -10,8 +10,7 @@
                             <div class="footer-widget mb-40"><a href="index.html">
                                     <img src="cdn/shop/files/logo_w_medium5558.png?v=1698857590" alt="">
                                 </a>
-                                <div class="subscribe-style"><p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit <br> sed do eiusmod tempor inci ut labore et dolore.</p></div>
+                                <div class="subscribe-style"><p><?=$footer_dec?></p></div>
 
                                 <div class="footer_about_contact">
 
@@ -214,7 +213,7 @@
                     <div class="col-lg-6 col-md-6 col-12">
                         <div class="copyright text-left pb-20">
                             <p>
-                            <p>Copyright Dunki | Built with Dunki by Team90Degree</p></p>
+                            <p><?=$footer_copyright?></p></p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">
