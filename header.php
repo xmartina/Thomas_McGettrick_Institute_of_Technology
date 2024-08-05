@@ -1245,7 +1245,7 @@ include_once ('include/functions.php');
                 <div class="notification-entry col-12 text-center">
 
                     <div class="notification_text">
-                        <p>Free express shipping with orders over $150 </p>
+                        <p>Welcome to Thomas McGettrick Institute of Technology | Excellence & Technology</p>
 
                         <button class="notification-close-btn">X</button>
                     </div>
