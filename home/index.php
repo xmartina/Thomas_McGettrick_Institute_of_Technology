@@ -71,7 +71,7 @@
                                         <div class="banner-content-4 banner-position-8">
                                             <h3 style="color:#ffffff;">History Book</h3>
                                             <a style="background-color:#ffffff;" class="btn_cl_b"
-                                               href="collections/all.html"> Read for $4.99 </a>
+                                               href="collections/all.html"> Read Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@
                                         <div class="banner-content-4 banner-position-9">
                                             <h3 style="color:#ffffff;">Comedy</h3>
                                             <a style="background-color:#ffffff;" class="btn_cl_b"
-                                               href="collections/all.html"> Read for $3.99 </a>
+                                               href="collections/all.html"> Read Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@
                                         <div class="banner-content-4 banner-position-9">
                                             <h3 style="color:#ffffff;">Family</h3>
                                             <a style="background-color:#ffffff;" class="btn_cl_b"
-                                               href="collections/all.html"> Read for $4.99 </a>
+                                               href="collections/all.html"> Read Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -113,7 +113,7 @@
                                         <div class="banner-content-4 banner-position-9">
                                             <h3 style="color:#ffffff;">Novel</h3>
                                             <a style="background-color:#ffffff;" class="btn_cl_b"
-                                               href="collections/all.html"> Read for $6.99 </a>
+                                               href="collections/all.html"> Read Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@
                                         <div class="banner-content-4 banner-position-9">
                                             <h3 style="color:#ffffff;">Fiction</h3>
                                             <a style="background-color:#ffffff;" class="btn_cl_b"
-                                               href="collections/all.html"> Read for $3.99 </a>
+                                               href="collections/all.html"> Read for Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +137,7 @@
                                         <div class="banner-content-4 banner-position-8">
                                             <h3 style="color:#ffffff;">Adventure</h3>
                                             <a style="background-color:#ffffff;" class="btn_cl_b"
-                                               href="collections/all.html"> Read for $2.99 </a>
+                                               href="collections/all.html"> Read Now </a>
                                         </div>
                                     </div>
                                 </div>
