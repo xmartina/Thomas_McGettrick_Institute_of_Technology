@@ -14,7 +14,7 @@
             </div>
 
 
-            <div class="row">
+            <div class="row pb-3">
                 <div class="col-lg-4 col-md-6">
                     <div class="img-wrap">
                         <img src="/front_added/gallery/1.jpeg" alt="" class="gallery-img rounded shadow-sm">
