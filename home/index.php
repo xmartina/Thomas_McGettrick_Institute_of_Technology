@@ -63,7 +63,7 @@
                     <div class=" col-lg-12 col-md-12  custom_margin_col">
                         <div class="banner-h3-wrap banner-multi-wrap">
                             <div class="row">
-                                <div class="col-md-12  custom_margin_col">
+                                <div class="col-md-12 ">
                                     <div class="single-banner mb-30">
                                         <a href="collections/all.html"><img class="animated"
                                                                             src="cdn/shop/files/tmb1_b735464e-670d-478d-89f7-29fb64985fdd37bd.png?v=1698863980"
@@ -75,7 +75,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-12  custom_margin_col">
+                                <div class="col-md-12 ">
                                     <div class="single-banner mb-30 scroll-zoom ">
                                         <a href="collections/all.html"><img class="animated"
                                                                             src="cdn/shop/files/tmb4bdc9.png?v=1698865165"
