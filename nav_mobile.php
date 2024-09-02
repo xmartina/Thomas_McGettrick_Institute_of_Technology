@@ -18,6 +18,12 @@
 
 
                         <li class=""><a href="/">Home</a></li>
+                        <li class="menu-item-has-children"><a href="#">About Us</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Organogram</a></li>
+                            </ul>
+                        </li>
                         <li class="menu-item-has-children"><a href="collections/all.html">Departments</a>
                             <ul class="dropdown">
                                 <li class="mobile_img_menu">
@@ -65,31 +71,6 @@
 
 
                         <li><a href="blogs/news.html">Blog</a></li>
-
-
-                        <li class="menu-item-has-children"><a href="#">Pages</a>
-                            <ul class="dropdown">
-
-
-                                <li><a href="pages/authors-list.html">Author List Page</a></li>
-
-
-                                <li><a href="pages/about-us.html">About Us</a></li>
-
-
-                                <li><a href="pages/contact-us.html">Contact us</a></li>
-
-
-                                <li><a href="pages/faq.html">Faq Page</a></li>
-
-
-                                <li><a href="404.html">404 Error Page</a></li>
-
-
-                            </ul>
-                        </li>
-
-
                         <li><a href="pages/about-us.html">About Us</a></li>
 
 
