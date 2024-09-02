@@ -1644,7 +1644,7 @@
 
 
     </div>
-    <?php include_once ($rootDir . 'gallery.php'); ?>
+    <?php include_once ($rootDir . 'home/gallery.php'); ?>
     <div id="shopify-section-template--14595761504336__16335890543c7ff7c6" class="shopify-section">
         <div class="blog-area common_slick_slider" id="section-template--14595761504336__16335890543c7ff7c6"
              data-section="Latest_Blog">
