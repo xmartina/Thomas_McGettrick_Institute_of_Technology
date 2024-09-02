@@ -7,7 +7,7 @@
                 <li class="sub-menu-li"><a href="javascript:void(0);">Organogram</a></li>
             </ul>
         </li>
-        <li class="angle-shape"><a href="javascript:void(0);">Virtual Internship</a></li>
+        <li class="angle-shape"><a href="/external_pages">Virtual Internship</a></li>
 <!--        <li class="angle-shape"><a href="javascript:void(0);">What We Do</a></li>-->
         <li class="angle-shape drop_arrow text-capitalize"><a href="javascript:void(0);">Departments</a>
 <!--        <li class="angle-shape drop_arrow"><a href="collections/all.html">DEPARTMENTS</a>-->
