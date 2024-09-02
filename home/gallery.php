@@ -5,7 +5,7 @@
 
             <div class="section-title text-left  title_button_show   pb-40">
 
-                <h2>New Release Books</h2>
+                <h2>Our Gallery</h2>
 
 
                 <div class="show-more-btn_title d-none">
