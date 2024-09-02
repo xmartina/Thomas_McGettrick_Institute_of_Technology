@@ -1355,7 +1355,7 @@ include_once ('include/functions.php');
                                                         autocomplete="off"
                                                         autocapitalize="off"
                                                         spellcheck="false" class="header-search-field input-text"
-                                                        placeholder="Search our store">
+                                                        placeholder="Search our Library">
                                                     <button type="submit">
                                                         <svg aria-hidden="true" focusable="false" data-prefix="far"
                                                              data-icon="search" role="img"
@@ -1388,8 +1388,8 @@ include_once ('include/functions.php');
 
                                             <li><h4>Account</h4>
                                                 <ul>
-                                                    <li><a href="account/login.html">Login</a></li>
-                                                    <li><a href="account/register.html">Create Account</a></li>
+                                                    <li><a href="javascript:void(0);">Login</a></li>
+                                                    <li><a href="javascript:void(0);">Create Account</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
