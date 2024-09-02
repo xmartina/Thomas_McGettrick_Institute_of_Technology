@@ -75,60 +75,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class=" col-md-6 custom_margin_col">
-                                    <div class="single-banner mb-30 scroll-zoom ">
-                                        <a href="collections/all.html"><img class="animated"
-                                                                            src="cdn/shop/files/tmb2_747c4ffd-5a5a-4132-8a70-dd75baafa7694881.png?v=1698864784"
-                                                                            alt=""></a>
-                                        <div class="banner-content-4 banner-position-9">
-                                            <h3 style="color:#ffffff;">Comedy</h3>
-                                            <a style="background-color:#ffffff;" class="btn_cl_b"
-                                               href="collections/all.html"> Read Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class=" col-md-6 custom_margin_col">
-                                    <div class="single-banner mb-30 scroll-zoom ">
-                                        <a href="collections/all.html"><img class="animated"
-                                                                            src="cdn/shop/files/tmb34b34.png?v=1698865034"
-                                                                            alt=""></a>
-                                        <div class="banner-content-4 banner-position-9">
-                                            <h3 style="color:#ffffff;">Family</h3>
-                                            <a style="background-color:#ffffff;" class="btn_cl_b"
-                                               href="collections/all.html"> Read Now </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" col-lg-6 col-md-12  custom_margin_col">
-                        <div class="banner-h3-wrap banner-multi-wrap">
-                            <div class="row custom_margin_row">
-                                <div class=" col-md-6 custom_margin_col">
-                                    <div class="single-banner mb-30">
-                                        <a href="collections/all.html"><img class="animated"
-                                                                            src="cdn/shop/files/tmb3_00a778fe-2a47-456c-9734-307018bcd12572c4.png?v=1698865271"
-                                                                            alt=""></a>
-                                        <div class="banner-content-4 banner-position-9">
-                                            <h3 style="color:#ffffff;">Novel</h3>
-                                            <a style="background-color:#ffffff;" class="btn_cl_b"
-                                               href="collections/all.html"> Read Now </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class=" col-md-6 custom_margin_col">
-                                    <div class="single-banner mb-30 scroll-zoom ">
-                                        <a href="collections/all.html"><img class="animated"
-                                                                            src="cdn/shop/files/tmb2_747c4ffd-5a5a-4132-8a70-dd75baafa7694881.png?v=1698864784"
-                                                                            alt=""></a>
-                                        <div class="banner-content-4 banner-position-9">
-                                            <h3 style="color:#ffffff;">Fiction</h3>
-                                            <a style="background-color:#ffffff;" class="btn_cl_b"
-                                               href="collections/all.html"> Read for Now </a>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="col-md-12  custom_margin_col">
                                     <div class="single-banner mb-30 scroll-zoom ">
                                         <a href="collections/all.html"><img class="animated"
