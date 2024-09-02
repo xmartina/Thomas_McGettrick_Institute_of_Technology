@@ -9,6 +9,7 @@ $site_name = $row["site_name"];
 $site_dec = $row["site_dec"];
 $site_phone = $row["phone"];
 $site_email = $row["email"];
+$site_address = $row["address"];
 $logo = $row["logo"];
 $footer_logo = $row["footer_logo"];
 $favicon = $row["favicon"];

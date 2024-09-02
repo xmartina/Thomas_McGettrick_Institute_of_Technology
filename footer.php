@@ -17,7 +17,7 @@
 
                                     <p>
                                         <i class="sli sli-map"></i>
-                                        <span>Addresss: 123 Pall Mall, London England</span>
+                                        <span>Addresss:<?=$address?></span>
                                     </p>
 
 
