@@ -60,7 +60,7 @@
 
     }'
                 >
-                    <div class=" col-lg-6 col-md-12  custom_margin_col">
+                    <div class=" col-lg-12 col-md-12  custom_margin_col">
                         <div class="banner-h3-wrap banner-multi-wrap">
                             <div class="row">
                                 <div class="col-md-12  custom_margin_col">
