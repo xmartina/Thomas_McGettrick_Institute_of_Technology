@@ -71,11 +71,11 @@
                         </li>
 
 
-                        <li><a href="blogs/news.html">Blog</a></li>
+<!--                        <li><a href="blogs/news.html">Blog</a></li>-->
 
 
 
-                        <li><a href="pages/contact-us.html">Contact Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
 
 
                     </ul>

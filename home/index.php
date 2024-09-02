@@ -1542,7 +1542,8 @@
     <li>Health Information Management</li>
     <li>Pharmaceutical Technology</li>
 </ul>
-
+                                </span>
+                                <span class="cstm_ul_li">
 <ul class="trx_addons_list_dot text_link2">
     <li>Community/Public Health</li>
     <li>Medical Laboratory Science</li>
