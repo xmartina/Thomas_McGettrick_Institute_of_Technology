@@ -18,6 +18,7 @@
 
 
                         <li class=""><a href="/">Home</a></li>
+                        <li><a href="/external_pages">Virtual Internship</a></li>
                         <li class="menu-item-has-children"><a href="#">About Us</a>
                             <ul class="dropdown">
                                 <li><a href="#">Our Team</a></li>
@@ -71,7 +72,7 @@
 
 
                         <li><a href="blogs/news.html">Blog</a></li>
-                        <li><a href="pages/about-us.html">About Us</a></li>
+
 
 
                         <li><a href="pages/contact-us.html">Contact Us</a></li>
