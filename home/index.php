@@ -62,7 +62,7 @@
                 >
                     <div class=" col-lg-6 col-md-12  custom_margin_col">
                         <div class="banner-h3-wrap banner-multi-wrap">
-                            <div class="row custom_margin_row">
+                            <div class="row">
                                 <div class="col-md-12  custom_margin_col">
                                     <div class="single-banner mb-30">
                                         <a href="collections/all.html"><img class="animated"
