@@ -17,7 +17,7 @@
 
                                     <p>
                                         <i class="sli sli-map"></i>
-                                        <span>Addresss:<?=$address?></span>
+                                        <span>Addresss:<?=$site_address?></span>
                                     </p>
 
 
