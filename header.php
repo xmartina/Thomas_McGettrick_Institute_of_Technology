@@ -21,7 +21,7 @@ include_once ('include/functions.php');
     <meta property="og:title" content="Online Store">
     <meta property="og:description" content="">
 
-    <meta property="og:url" content="index.html">
+    <meta property="og:url" content="/">
     <meta property="og:site_name" content="Dunki">
 
 
@@ -99,7 +99,7 @@ include_once ('include/functions.php');
         Shopify.theme.style = {"id": null, "handle": null};
         Shopify.cdnHost = "dunki-demo.myshopify.com/cdn";
         Shopify.routes = Shopify.routes || {};
-        Shopify.routes.root = "index.html";</script>
+        Shopify.routes.root = "/";</script>
     <script type="module">!function (o) {
             (o.Shopify = o.Shopify || {}).modules = !0
         }(window);</script>
@@ -1302,7 +1302,7 @@ include_once ('include/functions.php');
 
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo text-left">
-                                <a href="index.html" class="theme-logo">
+                                <a href="/" class="theme-logo">
                                     <img src="/cdn/shop/files/<?=$logo?>" alt="TMIT logo">
                                 </a></div>
                         </div>
@@ -1408,14 +1408,14 @@ include_once ('include/functions.php');
                     <div class="row align-items-center">
                         <div class="col-6">
                             <div class="mobile-logo">
-                                <a href="index.html" class="theme-logo">
-                                    <img src="/cdn/shop/files/logo1_130xbe39.png?v=1697996490" alt="Dunki"
-                                         srcset="//dunki-demo.myshopify.com/cdn/shop/files/logo1_130x.png?v=1697996490 1x, //dunki-demo.myshopify.com/cdn/shop/files/logo1_130x@2x.png?v=1697996490 2x">
+                                <a href="/" class="theme-logo">
+                                    <img src="/cdn/shop/files/<?=$logo?>" alt="TMIT logo"
+                                         srcset="/cdn/shop/files/<?=$logo?> 1x, /cdn/shop/files/<?=$logo?> 2x">
                                 </a></div>
                         </div>
                         <div class="col-6">
                             <div class="header-right-wrap">
-                                <div class="cart-wrap">
+                                <div class="cart-wrap d-none">
 
                                     <button class="icon-cart-active">
   <span class="icon-cart">
@@ -1465,150 +1465,7 @@ include_once ('include/functions.php');
                 </div>
             </div>
         </header>
-        <div class="mobile-off-canvas-active">
-            <a class="mobile-aside-close"><i class="sli sli-close"></i></a>
-            <div class="header-mobile-aside-wrap">
-                <div class="mobile-search">
-                    <form class="search-form" action="https://dunki-demo.myshopify.com/search" method="get"
-                          role="search">
-                        <input type="search"
-                               name="q"
-                               value=""
-                               placeholder="I&#39;m looking for…">
-                        <button class="button-search" type="submit"><i class="sli sli-magnifier"></i></button>
-                    </form>
-                </div>
-                <div class="mobile-menu-wrap">
-                    <div class="mobile-navigation">
-                        <nav>
-                            <ul class="mobile-menu">
-
-
-                                <li class="menu-item-has-children"><a href="index.html">Home</a>
-                                    <ul class="dropdown">
-
-
-                                        <li><a href="index501f.html?preview_theme_id=122477707344">Home Demo v1</a></li>
-
-
-                                        <li><a href="index2c6b.html?preview_theme_id=122478461008">Home Demo v2</a></li>
-
-
-                                        <li><a href="index712d.html?preview_theme_id=122478493776">Home Demo v3</a></li>
-
-
-                                        <li><a href="index3b70.html?preview_theme_id=122479902800">Home Demo v4</a></li>
-
-
-                                    </ul>
-                                </li>
-
-
-                                <li class="menu-item-has-children"><a href="collections/all.html">Shop</a>
-                                    <ul class="dropdown">
-
-
-                                        <li class="mobile_img_menu">
-                                            <a href="collections/featured-books.html"><img
-                                                    src="/cdn/shop/collections/p3f10c.png?v=1698470305"
-                                                    alt="Featured Books" loading="lazy"/></a>
-                                            <span><a href="collections/featured-books.html" title="">Featured Books</a> </span>
-                                        </li>
-
-
-                                        <li class="mobile_img_menu">
-                                            <a href="collections/best-sellers.html"><img
-                                                    src="/cdn/shop/collections/2d8ec.png?v=1698470765" alt="Best Sellers"
-                                                    loading="lazy"/></a>
-                                            <span><a href="collections/best-sellers.html"
-                                                     title="">Best Sellers</a> </span>
-                                        </li>
-
-
-                                        <li class="mobile_img_menu">
-                                            <a href="collections/most-viewed.html"><img
-                                                    src="/cdn/shop/collections/p880c1.png?v=1698470737" alt="Most Viewed"
-                                                    loading="lazy"/></a>
-                                            <span><a href="collections/most-viewed.html"
-                                                     title="">Most Viewed</a> </span>
-                                        </li>
-
-
-                                        <li class="m_mega-menu-li"><a href="collections.html">All Collections</a>
-                                            <ul class="dropdown">
-
-                                                <li><a href="collections/featured-books.html">Romance</a></li>
-
-                                                <li><a href="collections/best-sellers.html">History</a></li>
-
-                                                <li><a href="collections/best-sellers.html">Comedy</a></li>
-
-                                                <li><a href="collections/most-viewed.html">Fiction</a></li>
-
-                                                <li><a href="collections/best-sellers.html">Adventure</a></li>
-
-                                            </ul>
-                                        </li>
-
-
-                                    </ul>
-                                </li>
-
-
-                                <li><a href="blogs/news.html">Blog</a></li>
-
-
-                                <li class="menu-item-has-children"><a href="#">Pages</a>
-                                    <ul class="dropdown">
-
-
-                                        <li><a href="pages/authors-list.html">Author List Page</a></li>
-
-
-                                        <li><a href="pages/about-us.html">About Us</a></li>
-
-
-                                        <li><a href="pages/contact-us.html">Contact us</a></li>
-
-
-                                        <li><a href="pages/faq.html">Faq Page</a></li>
-
-
-                                        <li><a href="404.html">404 Error Page</a></li>
-
-
-                                    </ul>
-                                </li>
-
-
-                                <li><a href="pages/about-us.html">About Us</a></li>
-
-
-                                <li><a href="pages/contact-us.html">Contact Us</a></li>
-
-
-                            </ul>
-                        </nav>
-
-
-                        <script>
-                            $('.m_mega-menu-li').addClass('menu-item-has-children');
-                        </script>
-                    </div>
-                </div>
-                <div class="mobile-curr-lang-wrap">
-                    <div class="single-mobile-curr-lang"><a class="mobile-account-active remove_href" href="#">Account
-                            <i class="sli sli-arrow-down"></i></a>
-                        <div class="lang-curr-dropdown account-dropdown-active">
-                            <ul>
-                                <li><a href="account/login.html">Login</a></li>
-                                <li><a href="account/register.html">Create Account</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include_once ('nav_mobile.php');?>
 
 
         <style>
