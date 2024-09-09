@@ -57,7 +57,7 @@ $full_name = $fname.' '.$lname;
             break;
     }
 if($student_img == ''){
-    $student_img = '';
+    $student_img = 'default.png';
 }
 
 if($gender == 1){
