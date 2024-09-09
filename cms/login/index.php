@@ -6,14 +6,14 @@ include_once ($rootDir.'partials/header.php');
 <section class="auth bg-base d-flex flex-wrap">
     <div class="auth-left d-lg-block d-none">
         <div class="d-flex align-items-center flex-column h-100 justify-content-center">
-            <img src="<?=$siteUrl?>assets/images/auth/auth-img.png" alt="">
+            <img src="<?=$siteUrl?>front_added/logo/logo.png?v=1697959738" alt="">
         </div>
     </div>
     <div class="auth-right py-32 px-24 d-flex flex-column justify-content-center">
         <div class="max-w-464-px mx-auto w-100">
             <div>
                 <a href="index.html" class="mb-40 max-w-290-px">
-                    <img src="<?=$siteUrl?>assets/images/logo.png" alt="">
+                    <img src="<?=$siteUrl?>/front_added/logo/logo.png?v=1697959738" alt="">
                 </a>
                 <h4 class="mb-12">Sign In to your Account</h4>
                 <p class="mb-32 text-secondary-light text-lg">Welcome back! please enter your detail</p>
