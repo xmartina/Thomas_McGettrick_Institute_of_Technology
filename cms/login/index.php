@@ -3,22 +3,23 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 session_start();
-$rootDir = '/home/multistream6/domains/thomas.matagram.com/public_html/cms/';
-$siteUrl = 'https://thomas.matagram.com/cms/';
-include_once ($rootDir.'functions/login_function.php');
-include_once ($rootDir.'partials/header.php');
+$page_name = 'Login';
+$rootDir = '/home/multistream6/domains/thomas.matagram.com/public_html/';
+$siteUrl = 'https://thomas.matagram.com/';
+include_once ($rootDir.'cms/functions/login_function.php');
+include_once ($rootDir.'cms/partials/header.php');
 ?>
     <section class="auth bg-base d-flex flex-wrap">
         <div class="auth-left d-lg-block d-none">
             <div class="d-flex align-items-center flex-column h-100 justify-content-center">
-                <img src="<?=$siteUrl?>front_added/logo/logo.png?v=1697959738" alt="">
+                <img src="<?=$siteUrl?>cms/front_added/logo/logo.png?v=1697959738" alt="">
             </div>
         </div>
         <div class="auth-right py-32 px-24 d-flex flex-column justify-content-center">
             <div class="max-w-464-px mx-auto w-100">
                 <div>
                     <a href="index.html" class="mb-40 max-w-290-px">
-                        <img src="<?=$siteUrl?>/front_added/logo/logo.png?v=1697959738" alt="">
+                        <img src="<?=$siteUrl?>cms/front_added/logo/logo.png?v=1697959738" alt="">
                     </a>
                     <h4 class="mb-12">Sign In to your Account</h4>
                     <p class="mb-32 text-secondary-light text-lg">Welcome back! please enter your detail</p>
@@ -63,5 +64,5 @@ include_once ($rootDir.'partials/header.php');
     </section>
 
 <?php
-include_once ($rootDir.'partials/footer.php');
+include_once ($rootDir.'cms/partials/footer.php');
 ?>
