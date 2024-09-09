@@ -24,7 +24,7 @@ include_once($rootDir . 'cms/partials/header.php');
                 <p class="mb-32 text-secondary-light text-lg">Welcome back! please enter your detail</p>
                 <?php if (!empty($error)): ?>
                     <div class="py-2">
-                        <div class="alert alert-warning bg-warning-100 text-warning-600 border-warning-100 px-24 py-11 mb-0 fw-semibold text-lg radius-8 d-flex align-items-center justify-content-between" role="alert">
+                        <div class="alert alert-danger bg-danger-100 text-danger-600 border-danger-100 px-24 py-11 mb-0 fw-semibold text-lg radius-8 d-flex align-items-center justify-content-between" role="alert">
                             <div class="d-flex align-items-center gap-2">
                                 <iconify-icon icon="mdi:alert-circle-outline" class="icon text-xl"></iconify-icon>
                                 <?php echo htmlspecialchars($error); ?>
@@ -34,6 +34,7 @@ include_once($rootDir . 'cms/partials/header.php');
                             </button>
                         </div>
                     </div>
+                <div class="py-2">
                 <?php endif; ?>
             </div>
             <form action="" method="POST"> <!-- Points to login_function.php -->
