@@ -1,21 +1,17 @@
 <?php
 include_once($rootDir.'include/config.php');
 // General Settings
-$sql = "SELECT * FROM external_pages WHERE id = 1"; // Adjust the table name if different
+$sql = "SELECT * FROM general_settings"; // Adjust the table name if different
 $result = $conn->query($sql);
+$row = $result->fetch_assoc();
 
-if ($result->num_rows > 0) {
-    // Fetch the row data
-    $row = $result->fetch_assoc();
-
-    // Example of using the fetched data
-    $dpt_id = $row["department_id"]; // Adjust the column name as per your database schema
-    echo "Department ID: " . $dpt_id; // Display the department ID
-
-    // You can add more code here to utilize the fetched data
-} else {
-    echo "No results found.";
-}
-
-// Close the database connection
-$conn->close();
+$site_name = $row["site_name"];
+$site_dec = $row["site_dec"];
+$site_phone = $row["phone"];
+$site_email = $row["email"];
+$site_address = $row["address"];
+$logo = $row["logo"];
+$footer_logo = $row["footer_logo"];
+$favicon = $row["favicon"];
+$footer_dec = $row["footer_dec"];
+$footer_copyright = $row["footer_copyright"];
