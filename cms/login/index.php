@@ -6,6 +6,7 @@ session_start();
 $page_name = 'Login';
 $rootDir = '/home/multistream6/domains/thomas.matagram.com/public_html/';
 $siteUrl = 'https://thomas.matagram.com/';
+include_once($rootDir . 'cms/functions/login_function.php');
 include_once($rootDir . 'cms/partials/header.php');
 ?>
 <section class="auth bg-base d-flex flex-wrap">
