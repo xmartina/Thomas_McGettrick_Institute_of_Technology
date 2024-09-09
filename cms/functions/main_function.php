@@ -1,5 +1,6 @@
 <?php
-include_once($rootDir.'include/config.php');
+$HomeDir = '/home/multistream6/domains/thomas.matagram.com/public_html/';
+include_once($HomeDir.'include/config.php');
 // General Settings
 $sql = "SELECT * FROM general_settings"; // Adjust the table name if different
 $result = $conn->query($sql);
