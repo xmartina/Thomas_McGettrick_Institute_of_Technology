@@ -74,10 +74,23 @@ include_once($rootDir . 'cms/partials/header.php');
                             <input type="url" name="book_link" class="form-control" placeholder="http://example.com">
                         </div>
 
-                        <!-- Department ID -->
+                        <!-- Department Dropdown -->
                         <div class="col-12">
-                            <label class="form-label">Department ID</label>
-                            <input type="number" name="dpt_id" class="form-control" required>
+                            <label class="form-label">Department</label>
+                            <select name="dpt_id" class="form-control" required>
+                                <option value="">Select Department</option>
+                                <option value="1">Electrical/Electronics Engineering</option>
+                                <option value="2">Computer Engineering</option>
+                                <option value="3">Computer Science</option>
+                                <option value="4">Statistics</option>
+                                <option value="5">Health Information Management</option>
+                                <option value="6">Pharmaceutical Technology</option>
+                                <option value="7">Community/Public Health</option>
+                                <option value="8">Medical Laboratory Science</option>
+                                <option value="9">Accountancy</option>
+                                <option value="10">Business Administration</option>
+                                <option value="11">Public Administration</option>
+                            </select>
                         </div>
 
                         <!-- Book Cover Upload -->
