@@ -1,5 +1,5 @@
 <?php
-include_once ($rootDir.'functions/main_function.php');
+include_once ($rootDir.'cms/functions/main_function.php');
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['login']) {
     $email = $_POST['email'];
     $password = $_POST['password'];
