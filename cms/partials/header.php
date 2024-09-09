@@ -29,5 +29,15 @@
     <link rel="stylesheet" href="<?=$siteUrl?>cms/assets/css/lib/slick.css">
     <!-- main css -->
     <link rel="stylesheet" href="<?=$siteUrl?>cms/assets/css/style.css">
+
+    <?php
+    // Check if the current URL contains '/liberian/'
+    if (strpos($_SERVER['REQUEST_URI'], '/liberian/') !== false) {
+        // Include the Slick Slider CSS only if the URL contains '/liberian/'
+        include_once($rootDir . 'cms/partials/side_bar.php');
+    }
+    ?>
+
+
 </head>
 <body>
