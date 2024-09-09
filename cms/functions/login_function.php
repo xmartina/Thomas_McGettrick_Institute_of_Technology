@@ -1,33 +1,35 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-session_start();
+session_start(); // Start the session at the beginning
 
-$rootDir = '/home/multistream6/domains/thomas.matagram.com/public_html/';
-include_once($rootDir . 'cms/functions/main_function.php'); // Make sure this includes the database connection
+include_once($rootDir . 'cms/functions/main_function.php');
+
+// Ensure database connection is available
+if (!isset($conn)) {
+    die("Database connection error.");
+}
+
+$error = ''; // Initialize an empty error message
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
-    $email = $_POST['email'];
+    // Fetch and sanitize user inputs
+    $email = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
     $password = $_POST['password'];
 
     // Prepare SQL query to check the user's credentials
     $sql = "SELECT * FROM admin WHERE email = ?";
     $stmt = $conn->prepare($sql);
 
-    // Check if the statement was prepared successfully
     if ($stmt) {
         $stmt->bind_param("s", $email);
         $stmt->execute();
         $result = $stmt->get_result();
 
         // Check if the user exists
-        if ($result->num_rows == 1) {
+        if ($result && $result->num_rows == 1) {
             $user = $result->fetch_assoc();
-            $stored_hashed_password  = $user['pass'];
 
             // Verify the password
-            if (password_verify($password, $stored_hashed_password )) {
+            if (password_verify($password, $user['pass'])) {
                 // Store user information in session variables
                 $_SESSION['user_id'] = $user['id'];
                 $_SESSION['username'] = $user['username'];
@@ -46,15 +48,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
                 }
             } else {
                 $error = "Incorrect password.";
-                echo $error; // Debugging output
             }
         } else {
             $error = "No user found with that email.";
-            echo $error; // Debugging output
         }
+
+        $stmt->close(); // Close the statement
     } else {
-        // Output statement preparation error
-        echo "Failed to prepare SQL statement.";
+        $error = "Failed to prepare the SQL statement.";
     }
 }
 ?>

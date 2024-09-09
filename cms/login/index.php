@@ -17,11 +17,24 @@ include_once($rootDir . 'cms/partials/header.php');
     <div class="auth-right py-32 px-24 d-flex flex-column justify-content-center">
         <div class="max-w-464-px mx-auto w-100">
             <div>
-                <a href="index.html" class="mb-40 max-w-290-px">
+                <a href="/" class="mb-40 max-w-290-px">
                     <img src="<?= $siteUrl ?>front_added/logo/logo.png?v=1697959738" alt="">
                 </a>
                 <h4 class="mb-12">Sign In to your Account</h4>
                 <p class="mb-32 text-secondary-light text-lg">Welcome back! please enter your detail</p>
+                <?php if (!empty($error)): ?>
+                    <div class="py-2">
+                        <div class="alert alert-warning bg-warning-100 text-warning-600 border-warning-100 px-24 py-11 mb-0 fw-semibold text-lg radius-8 d-flex align-items-center justify-content-between" role="alert">
+                            <div class="d-flex align-items-center gap-2">
+                                <iconify-icon icon="mdi:alert-circle-outline" class="icon text-xl"></iconify-icon>
+                                <?php echo htmlspecialchars($error); ?>
+                            </div>
+                            <button class="remove-button text-warning-600 text-xxl line-height-1" onclick="this.parentElement.style.display='none';">
+                                <iconify-icon icon="iconamoon:sign-times-light" class="icon"></iconify-icon>
+                            </button>
+                        </div>
+                    </div>
+                <?php endif; ?>
             </div>
             <form action="/cms/functions/login_function.php" method="POST"> <!-- Points to login_function.php -->
                 <div class="icon-field mb-16">
@@ -45,7 +58,7 @@ include_once($rootDir . 'cms/partials/header.php');
                             <input class="form-check-input border border-neutral-300" type="checkbox" value="" id="remember">
                             <label class="form-check-label" for="remember">Remember me </label>
                         </div>
-                        <a href="javascript:void(0)" class="text-primary-600 fw-medium">Forgot Password?</a>
+                        <a href="<?= $siteUrl ?>forgotten_password" class="text-primary-600 fw-medium">Forgot Password?</a>
                     </div>
                 </div>
 
