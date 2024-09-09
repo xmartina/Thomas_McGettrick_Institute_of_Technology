@@ -6,6 +6,22 @@ include_once($rootDir . 'cms/functions/liberian_function.php');
 include_once($rootDir . 'cms/partials/header.php');
 ?>
 
+<script>
+    function toggleFields() {
+        var bookType = document.getElementById('book_type').value;
+        var pdfField = document.getElementById('pdf_upload');
+        var linkField = document.getElementById('book_link');
+
+        if (bookType == '1') {
+            pdfField.style.display = 'block';
+            linkField.style.display = 'none';
+        } else if (bookType == '2') {
+            pdfField.style.display = 'none';
+            linkField.style.display = 'block';
+        }
+    }
+</script>
+
 <div class="dashboard-main-body">
 
     <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-24">
