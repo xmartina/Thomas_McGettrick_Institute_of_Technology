@@ -1,4 +1,5 @@
 <?php
+session_start(); // Start the session at the beginning
 
 include_once($rootDir . 'cms/functions/main_function.php');
 
@@ -9,6 +10,7 @@ if (!isset($conn)) {
 
 $error = ''; // Initialize an empty error message
 
+// Check if the form has been submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
     // Fetch and sanitize user inputs
     $email = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);

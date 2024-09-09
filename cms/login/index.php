@@ -37,7 +37,7 @@ include_once($rootDir . 'cms/partials/header.php');
                     </div>
                 <?php endif; ?>
             </div>
-            <form action="/cms/functions/login_function.php" method="POST"> <!-- Points to login_function.php -->
+            <form action="" method="POST"> <!-- Points to login_function.php -->
                 <div class="icon-field mb-16">
                     <span class="icon top-50 translate-middle-y">
                         <iconify-icon icon="mage:email"></iconify-icon>
