@@ -24,7 +24,7 @@ include_once ($rootDir.'cms/partials/header.php');
                     <h4 class="mb-12">Sign In to your Account</h4>
                     <p class="mb-32 text-secondary-light text-lg">Welcome back! please enter your detail</p>
                 </div>
-                <form action="login.php" method="POST"> <!-- Updated action to point to login.php -->
+                <form action="" method="POST"> <!-- Updated action to point to login.php -->
                     <div class="icon-field mb-16">
                     <span class="icon top-50 translate-middle-y">
                         <iconify-icon icon="mage:email"></iconify-icon>
