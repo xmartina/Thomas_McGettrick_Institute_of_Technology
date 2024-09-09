@@ -24,9 +24,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
         // Check if the user exists
         if ($result->num_rows == 1) {
             $user = $result->fetch_assoc();
+            $stored_hashed_password  = $user['pass'];
 
             // Verify the password
-            if (password_verify($password, $user['pass'])) {
+            if (password_verify($password, $stored_hashed_password )) {
                 // Store user information in session variables
                 $_SESSION['user_id'] = $user['id'];
                 $_SESSION['username'] = $user['username'];
