@@ -194,8 +194,8 @@ include_once($rootDir . 'cms/partials/header.php');
 
                     <div class="card-body">
                         <div class="d-flex align-items-center flex-wrap gap-2 justify-content-between">
-                            <h6 class="mb-2 fw-bold text-lg mb-0">Top Performer</h6>
-                            <a href="javascript:void(0)"
+                            <h6 class="mb-2 fw-bold text-lg mb-0">New Students</h6>
+                            <a href="<?$siteUrl?>cms/liberian/view_users"
                                class="text-primary-600 hover-text-primary d-flex align-items-center gap-1">
                                 View All
                                 <iconify-icon icon="solar:alt-arrow-right-linear" class="icon"></iconify-icon>
@@ -204,77 +204,7 @@ include_once($rootDir . 'cms/partials/header.php');
 
                         <div class="mt-32">
 
-                            <div class="d-flex align-items-center justify-content-between gap-3 mb-32">
-                                <div class="d-flex align-items-center">
-                                    <img src="assets/images/users/user1.png" alt=""
-                                         class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
-                                    <div class="flex-grow-1">
-                                        <h6 class="text-md mb-0">Dianne Russell</h6>
-                                        <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
-                                    </div>
-                                </div>
-                                <span class="text-primary-light text-md fw-medium">60/80</span>
-                            </div>
-
-                            <div class="d-flex align-items-center justify-content-between gap-3 mb-32">
-                                <div class="d-flex align-items-center">
-                                    <img src="assets/images/users/user2.png" alt=""
-                                         class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
-                                    <div class="flex-grow-1">
-                                        <h6 class="text-md mb-0">Wade Warren</h6>
-                                        <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
-                                    </div>
-                                </div>
-                                <span class="text-primary-light text-md fw-medium">50/70</span>
-                            </div>
-
-                            <div class="d-flex align-items-center justify-content-between gap-3 mb-32">
-                                <div class="d-flex align-items-center">
-                                    <img src="assets/images/users/user3.png" alt=""
-                                         class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
-                                    <div class="flex-grow-1">
-                                        <h6 class="text-md mb-0">Albert Flores</h6>
-                                        <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
-                                    </div>
-                                </div>
-                                <span class="text-primary-light text-md fw-medium">55/75</span>
-                            </div>
-
-                            <div class="d-flex align-items-center justify-content-between gap-3 mb-32">
-                                <div class="d-flex align-items-center">
-                                    <img src="assets/images/users/user4.png" alt=""
-                                         class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
-                                    <div class="flex-grow-1">
-                                        <h6 class="text-md mb-0">Bessie Cooper</h6>
-                                        <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
-                                    </div>
-                                </div>
-                                <span class="text-primary-light text-md fw-medium">60/80</span>
-                            </div>
-
-                            <div class="d-flex align-items-center justify-content-between gap-3 mb-32">
-                                <div class="d-flex align-items-center">
-                                    <img src="assets/images/users/user5.png" alt=""
-                                         class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
-                                    <div class="flex-grow-1">
-                                        <h6 class="text-md mb-0">Arlene McCoy</h6>
-                                        <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
-                                    </div>
-                                </div>
-                                <span class="text-primary-light text-md fw-medium">55/75</span>
-                            </div>
-
-                            <div class="d-flex align-items-center justify-content-between gap-3">
-                                <div class="d-flex align-items-center">
-                                    <img src="assets/images/users/user1.png" alt=""
-                                         class="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden">
-                                    <div class="flex-grow-1">
-                                        <h6 class="text-md mb-0">Arlene McCoy</h6>
-                                        <span class="text-sm text-secondary-light fw-medium">Agent ID: 36254</span>
-                                    </div>
-                                </div>
-                                <span class="text-primary-light text-md fw-medium">50/70</span>
-                            </div>
+                            <?php include_once($rootDir . 'cms/liberian/new_students.php'); ?>
 
                         </div>
 
