@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e04ae80-f07b-4027-8e7c-a51e128c5df2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cms/functions/liberian_function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/functions/login_function.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/functions/login_function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/liberian/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/liberian/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/login/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/login/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +74,7 @@
       <workItem from="1725284355517" duration="13778000" />
       <workItem from="1725383192363" duration="48000" />
       <workItem from="1725889106494" duration="6138000" />
-      <workItem from="1725896674120" duration="3367000" />
+      <workItem from="1725896674120" duration="3719000" />
     </task>
     <servers />
   </component>

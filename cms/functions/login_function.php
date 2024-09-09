@@ -1,5 +1,4 @@
 <?php
-session_start(); // Start the session at the beginning
 
 include_once($rootDir . 'cms/functions/main_function.php');
 
