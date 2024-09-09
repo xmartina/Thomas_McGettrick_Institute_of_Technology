@@ -23,14 +23,14 @@ if ($result->num_rows > 0) {
                     <div class="theme-product-image-wrap product-color">
                         <div class="theme-product-image">
                             <div class="theme-product-cus-tab icon_bg_img">
-                                <a href="<?php echo htmlspecialchars($bookLink); ?>" class="theme-product-image">
+                                <a href="<?=$bookLink?>" class="theme-product-image">
                                     <img class="popup_cart_image" src="<?php echo htmlspecialchars($bookCover); ?>"
                                          alt="<?php echo htmlspecialchars($bookName); ?>">
                                 </a>
                                 <div class="theme-product-action">
                                     <ul>
                                         <li>
-                                            <a href="<?php echo htmlspecialchars($bookLink); ?>"
+                                            <a href="<?=$bookLink?>"
                                                onclick="quiqview('<?php echo htmlspecialchars($bookName); ?>')"
                                                data-toggle="modal" data-target="#exampleModal">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
@@ -56,7 +56,7 @@ if ($result->num_rows > 0) {
                                 <a href="#" class="remove_href"><?php echo htmlspecialchars($author); ?></a>
                             </div>
                             <h4 class="theme-product-title popup_cart_title">
-                                <a href="<?php echo htmlspecialchars($bookLink); ?>"><?php echo htmlspecialchars($bookName); ?></a>
+                                <a href="<?=$bookLink?>"><?php echo htmlspecialchars($bookName); ?></a>
                             </h4>
                         </div>
                         <div class="theme-product-action">
