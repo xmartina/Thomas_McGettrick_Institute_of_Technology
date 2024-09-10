@@ -125,6 +125,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
         echo 'Error: ' . $stmt->error;
     }
 
+
     $stmt->close();
     $conn->close();
 }
