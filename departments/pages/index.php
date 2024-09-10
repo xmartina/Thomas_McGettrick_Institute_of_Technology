@@ -13,7 +13,7 @@ include_once($rootDir . 'functions/departments_functions.php');
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-title text-center mb-65">
-                                <h2>Books for Department ID: <?php echo htmlspecialchars($dpt_id); ?></h2>
+                                <h2>Books for <?php echo htmlspecialchars($department_name); ?></h2>
                                 <a href="#" title="Browse our book collection">Book Collection &rsaquo;</a>
                             </div>
                         </div>
