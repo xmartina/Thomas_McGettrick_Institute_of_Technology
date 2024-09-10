@@ -45,28 +45,36 @@
 <!--                <li class="mega-menu-li"><a class="menu-title" href="collections.html">DEPARTMENTS IN OUR INSTITUTE</a>-->
                     <ul>
 
-                        <li><a href="javascript:void(0);">Electrical/Electronics Engineering</a></li>
+                        <?php
+                        // Ensure database connection is available
+                        if (!isset($conn)) {
+                            die("Database connection error.");
+                        }
 
-                        <li><a href="javascript:void(0);">Computer Engineering</a></li>
-<!--                        <li><a href="collections/best-sellers.html">History</a></li>-->
+                        // Fetch departments from the database
+                        $sql = "SELECT id, book_id, dep_name FROM departments";
+                        $result = $conn->query($sql);
 
-                        <li><a href="javascript:void(0);">Computer Science</a></li>
+                        // Check if the query was successful
+                        if ($result && $result->num_rows > 0) {
+                            echo '<ul>'; // Start the unordered list
+                            while ($row = $result->fetch_assoc()) {
+                                $book_id = $row['book_id'];
+                                $dep_name = htmlspecialchars($row['dep_name']); // Sanitize the department name for HTML output
+                                $link = $site_url . 'departments/pages?id=' . $book_id; // Construct the link with the book_id as a GET parameter
 
-                        <li><a href="javascript:void(0);">Statistics</a></li>
+                                // Generate the list item with the link
+                                echo '<li><a href="' . $link . '">' . $dep_name . '</a></li>';
+                            }
+                            echo '</ul>'; // End the unordered list
+                        } else {
+                            echo 'No departments found.';
+                        }
 
-                        <li><a href="javascript:void(0);">Health Information Management</a></li>
+                        // Close the database connection
+                        $conn->close();
+                        ?>
 
-                        <li><a href="javascript:void(0);">Pharmaceutical Technology</a></li>
-
-                        <li><a href="javascript:void(0);">Community/Public Health</a></li>
-
-                        <li><a href="javascript:void(0);">Medical Laboratory Science</a></li>
-
-                        <li><a href="javascript:void(0);">Accountancy</a></li>
-
-                        <li><a href="/departments/">Business Administration</a></li>
-
-                        <li><a href="javascript:void(0);">Public Administration</a></li>
 
                     </ul>
                 </li>
