@@ -3,14 +3,7 @@
         <iconify-icon icon="radix-icons:cross-2"></iconify-icon>
     </button>
     <div>
-        <?php
-        if (strpos($_SERVER['REQUEST_URI'], '/cms/librarian/') !== false) {
-            $dashLink = $siteUrl.'cms/librarian';
-        }elseif (strpos($_SERVER['REQUEST_URI'], '/cms/admin/')!== false){
-            $dashLink = $siteUrl.'cms/admin';
-        }
-        ?>
-        <a href="<?=$dashLink?>" class="sidebar-logo">
+        <a href="index.html" class="sidebar-logo">
             <img src="<?=$siteUrl?>front_added/logo/logo.png?v=1697959738" alt="site logo" class="light-logo">
             <img src="<?=$siteUrl?>front_added/logo/logo.png?v=1697959738" alt="site logo" class="dark-logo">
             <img src="<?=$siteUrl?>front_added/logo/logo.png?v=1697959738" alt="site logo" class="logo-icon">
