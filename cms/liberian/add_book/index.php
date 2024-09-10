@@ -38,8 +38,7 @@ include_once($rootDir . 'cms/partials/header.php');
         </ul>
     </div>
 
-    <div class="row gy-4">
-        <div class="col-xl-3"></div>
+    <div class="row gy-4 justify-content-center">
         <div class="col-xl-6">
             <div class="card h-100 p-0">
                 <div class="card-header border-bottom bg-base py-16 px-24">
