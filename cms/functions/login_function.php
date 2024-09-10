@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
 
                 // Redirect based on admin_id
                 if ($user['admin_id'] == 2) {
-                    header('Location: /cms/liberian');
+                    header('Location: /cms/librarian');
                     exit();
                 } elseif ($user['admin_id'] == 1) {
                     header('Location: /cms/admin');

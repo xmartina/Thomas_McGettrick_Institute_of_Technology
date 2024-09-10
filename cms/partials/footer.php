@@ -1,6 +1,6 @@
 <?php
-// Check if the current URL contains '/liberian/'
-if (strpos($_SERVER['REQUEST_URI'], '/liberian/') !== false) { ?>
+// Check if the current URL contains '/librarian/'
+if (strpos($_SERVER['REQUEST_URI'], '/librarian/') !== false) { ?>
 <footer class="d-footer">
     <div class="row align-items-center justify-content-between">
         <div class="col-auto">

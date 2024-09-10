@@ -1,8 +1,8 @@
 <?php
-$page_name = 'Liberian Portal';
+$page_name = 'librarian Portal';
 $rootDir = '/home/multistream6/domains/thomas.matagram.com/public_html/';
 $siteUrl = 'https://thomas.matagram.com/';
-include_once($rootDir . 'cms/functions/liberian_function.php');
+include_once($rootDir . 'cms/functions/librarian_function.php');
 include_once($rootDir . 'cms/partials/header.php');
 ?>
 
@@ -195,7 +195,7 @@ include_once($rootDir . 'cms/partials/header.php');
                     <div class="card-body">
                         <div class="d-flex align-items-center flex-wrap gap-2 justify-content-between">
                             <h6 class="mb-2 fw-bold text-lg mb-0">New Students</h6>
-                            <a href="<?$siteUrl?>cms/liberian/view_users"
+                            <a href="<?$siteUrl?>cms/librarian/view_users"
                                class="text-primary-600 hover-text-primary d-flex align-items-center gap-1">
                                 View All
                                 <iconify-icon icon="solar:alt-arrow-right-linear" class="icon"></iconify-icon>
@@ -204,7 +204,7 @@ include_once($rootDir . 'cms/partials/header.php');
 
                         <div class="mt-32">
 
-                            <?php include_once($rootDir . 'cms/liberian/new_students.php'); ?>
+                            <?php include_once($rootDir . 'cms/librarian/new_students.php'); ?>
 
                         </div>
 

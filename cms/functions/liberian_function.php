@@ -89,11 +89,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
             if (move_uploaded_file($_FILES['pdf_file']['tmp_name'], $pdf_path)) {
                 $book_link = $pdf_link . $pdf_name; // Store URL in the database
             } else {
-                header('Location: /cms/liberian/add_book?msg=error_uploading_pdf');
+                header('Location: /cms/librarian/add_book?msg=error_uploading_pdf');
                 exit();
             }
         } else {
-            header('Location: /cms/liberian/add_book?msg=pdf_required');
+            header('Location: /cms/librarian/add_book?msg=pdf_required');
             exit();
         }
     } elseif ($book_type == '2') { // If book type is Link
@@ -110,11 +110,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
         if (move_uploaded_file($_FILES['book_cover']['tmp_name'], $cover_path)) {
             $book_cover = $cover_link . $cover_name; // Store URL in the database
         } else {
-            header('Location: /cms/liberian/add_book?msg=error_uploading_cover');
+            header('Location: /cms/librarian/add_book?msg=error_uploading_cover');
             exit();
         }
     } else {
-        header('Location: /cms/liberian/add_book?msg=cover_required');
+        header('Location: /cms/librarian/add_book?msg=cover_required');
         exit();
     }
 
@@ -125,10 +125,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
     $stmt->bind_param("ssisss", $book_name, $book_link, $book_type, $dpt_id, $book_cover, $author);
 
     if ($stmt->execute()) {
-        header('Location: /cms/liberian/add_book?msg=book_added_successfully');
+        header('Location: /cms/librarian/add_book?msg=book_added_successfully');
         exit();
     } else {
-        header('Location: /cms/liberian/add_book?msg=error_adding_book');
+        header('Location: /cms/librarian/add_book?msg=error_adding_book');
         exit();
     }
 
