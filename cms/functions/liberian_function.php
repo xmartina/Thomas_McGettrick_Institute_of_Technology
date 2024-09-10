@@ -118,7 +118,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
     }
 
     // Prepare and execute SQL query to insert data
-    $sql = "INSERT INTO books (book_name, book_link, book_type, dpt_id, book_cover, author) 
+    $sql = "INSERT INTO e_book (book_name, book_link, book_type, dpt_id, book_cover, author) 
             VALUES (?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("ssisss", $book_name, $book_link, $book_type, $dpt_id, $book_cover, $author);
