@@ -37,7 +37,7 @@
             <li class="sidebar-menu-group-title">Action</li>
             <li class="dropdown">
                 <a href="javascript:void(0)">
-                    <iconify-icon icon="hugeicons:pen" class="menu-icon"></iconify-icon>
+                    <iconify-icon icon="solar:document-text-outline" class="menu-icon"></iconify-icon>
                     <span>Post</span>
                 </a>
                 <ul class="sidebar-submenu">
