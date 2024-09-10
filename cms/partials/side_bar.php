@@ -4,9 +4,9 @@
     </button>
     <div>
         <a href="index.html" class="sidebar-logo">
-            <img src="assets/images/logo.png" alt="site logo" class="light-logo">
-            <img src="assets/images/logo-light.png" alt="site logo" class="dark-logo">
-            <img src="assets/images/logo-icon.png" alt="site logo" class="logo-icon">
+            <img src="<?=$siteUrl?>front_added/logo/logo.png?v=1697959738" alt="site logo" class="light-logo">
+            <img src="<?=$siteUrl?>front_added/logo/logo.png?v=1697959738" alt="site logo" class="dark-logo">
+            <img src="<?=$siteUrl?>front_added/logo/logo.png?v=1697959738" alt="site logo" class="logo-icon">
         </a>
     </div>
     <div class="sidebar-menu-area">
@@ -45,13 +45,13 @@
                         <a href="invoice-list.html"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List E-Books</a>
                     </li>
                     <li>
-                        <a href="invoice-preview.html"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Add E-Book</a>
+                        <a href="<?=$siteUrl?>cms/liberian/add_book"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Add E-Book</a>
                     </li>
                     <li>
-                        <a href="invoice-add.html"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> Add Department</a>
+                        <a href="javascript:void(0);"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> Add Department</a>
                     </li>
                     <li>
-                        <a href="invoice-edit.html"><i class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Author</a>
+                        <a href="javascript:void(0);"><i class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Add Author</a>
                     </li>
                 </ul>
             </li>
