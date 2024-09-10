@@ -1,5 +1,7 @@
 <?php
-session_start(); // Start the session at the beginning
+if (strpos($_SERVER['REQUEST_URI'], '/cms/login/') !== false) {
+    session_start(); // Start the session if the URL contains '/cms/login/'
+}
 
 include_once($rootDir . 'cms/functions/main_function.php');
 
