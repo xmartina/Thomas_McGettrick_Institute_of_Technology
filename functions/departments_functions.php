@@ -1,7 +1,6 @@
 <?php
 include_once($rootDir.'include/config.php');
 
-
 if (!isset($conn)) {
     die("Database connection error.");
 }
@@ -21,11 +20,10 @@ if (isset($_GET['id'])) {
     if ($result && $result->num_rows > 0) {
         $books = $result->fetch_all(MYSQLI_ASSOC); // Fetch all books as an associative array
     } else {
-        echo "No books found for this department.";
+        echo "<div class='container'><p>No books found for this department.</p></div>";
         exit();
     }
 } else {
-    echo "Invalid or missing department ID.";
+    echo "<div class='container'><p>Invalid or missing department ID.</p></div>";
     exit();
 }
-
