@@ -3,6 +3,13 @@ if (strpos($_SERVER['REQUEST_URI'], '/cms/login/') !== false) {
     session_start(); // Start the session if the URL contains '/cms/login/'
 }
 
+// Redirect to login page if the session is not set and the current page is not the login page
+if (!isset($_SESSION['user_id']) && strpos($_SERVER['REQUEST_URI'], '/cms/login/') === false) {
+    header('Location: /cms/login/'); // Redirect to the login page
+    exit();
+}
+
+// Include your database functions and connection
 include_once($rootDir . 'cms/functions/main_function.php');
 
 // Ensure database connection is available

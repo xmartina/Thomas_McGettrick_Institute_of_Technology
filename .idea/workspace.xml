@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e04ae80-f07b-4027-8e7c-a51e128c5df2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cms/partials/side_bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/partials/side_bar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/functions/login_function.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/functions/login_function.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <workItem from="1725383192363" duration="48000" />
       <workItem from="1725889106494" duration="6138000" />
       <workItem from="1725896674120" duration="10708000" />
-      <workItem from="1725962083960" duration="6609000" />
+      <workItem from="1725962083960" duration="6925000" />
     </task>
     <servers />
   </component>
