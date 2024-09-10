@@ -38,7 +38,7 @@
             <li class="dropdown">
                 <a href="javascript:void(0)">
                     <iconify-icon icon="solar:document-text-outline" class="menu-icon"></iconify-icon>
-                    <span>Post</span>
+                    <span>E-Book</span>
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
