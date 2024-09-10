@@ -25,7 +25,7 @@ include_once($rootDir . 'cms/partials/header.php');
 <div class="dashboard-main-body">
 
     <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-24">
-        <h6 class="fw-semibold mb-0">Dropdown</h6>
+        <h6 class="fw-semibold mb-0">Add E-Book</h6>
         <ul class="d-flex align-items-center gap-2">
             <li class="fw-medium">
                 <a href="index.html" class="d-flex align-items-center gap-1 hover-text-primary">
@@ -34,7 +34,7 @@ include_once($rootDir . 'cms/partials/header.php');
                 </a>
             </li>
             <li>-</li>
-            <li class="fw-medium">Components / Dropdown</li>
+            <li class="fw-medium">Dashboard / Add E-Book</li>
         </ul>
     </div>
 
@@ -43,7 +43,7 @@ include_once($rootDir . 'cms/partials/header.php');
         <div class="col-xl-6">
             <div class="card h-100 p-0">
                 <div class="card-header border-bottom bg-base py-16 px-24">
-                    <h6 class="text-lg fw-semibold mb-0">Basic Dropdown Primary</h6>
+                    <h6 class="text-lg fw-semibold mb-0">Add E-Book</h6>
                 </div>
                 <form action="" method="post" enctype="multipart/form-data">
                     <div class="card-body p-24">
