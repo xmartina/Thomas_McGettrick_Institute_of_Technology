@@ -70,9 +70,6 @@
                         } else {
                             echo 'No departments found.';
                         }
-
-                        // Close the database connection
-                        $conn->close();
                         ?>
 
 
