@@ -4,6 +4,7 @@ include_once($rootDir . 'header.php');
 include_once($rootDir . 'functions/departments_functions.php');
 ?>
 
+
     <main>
         <div id="shopify-section-template--14595460694096__main" class="shopify-section">
             <div class="list-product-collection pt-100 pt-sm-70 pb-50 pb-sm-20"
@@ -20,7 +21,9 @@ include_once($rootDir . 'functions/departments_functions.php');
                 </div>
                 <div class="container">
                     <div class="row theme-products">
-                        <?php foreach ($books as $book): ?>
+                        <?php
+                        // Use a while loop to fetch and display each book
+                        while ($book = $result->fetch_assoc()): ?>
                             <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                                 <div
                                     class="theme-product theme-product-action-on-hover mb-30 theme-product-action-middle theme-product-countdown-bottom product-wrapper-class">
@@ -188,7 +191,7 @@ include_once($rootDir . 'functions/departments_functions.php');
                                                             <g><path
                                                                     d="m12 22c-.6 0-1-.4-1-1v-3c0-.6.4-1 1-1s1 .4 1 1v3c0 .6-.4 1-1 1z"/></g>
                                                             <g><path
-                                                                    d="m5.6 19.4c-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l2.1-2.2c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-2.1 2.2c-.2.2-.4.3-.7.3z"/></g>
+                                                                    d="m5.6 19.4c-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l2.1-2.2c-.4-.4 1-.4 1.4 0s.4 1 0 1.4l-2.1 2.2c-.2.2-.4.3-.7.3z"/></g>
                                                             <g><path
                                                                     d="m6 13h-3c-.6 0-1-.4-1-1s.4-1 1-1h3c.6 0 1 .4 1 1s-.4 1-1 1z"/></g>
                                                             <g><path
@@ -222,11 +225,10 @@ include_once($rootDir . 'functions/departments_functions.php');
                                     </div>
                                 </div>
                             </div>
-                        <?php endforeach; ?>
+                        <?php endwhile; ?>
                     </div>
                 </div>
             </div>
-
             <style data-shopify>#section-template--14595460694096__main {
                     padding-top: 75px;
                     padding-bottom: 45px;

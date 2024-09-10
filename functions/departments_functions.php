@@ -18,7 +18,7 @@ if (isset($_GET['id'])) {
 
     // Check if any books were found
     if ($result && $result->num_rows > 0) {
-        $books = $result->fetch_all(MYSQLI_ASSOC); // Fetch all books as an associative array
+        // Data is fetched in the while loop below
     } else {
         echo "<div class='container'><p>No books found for this department.</p></div>";
         exit();
@@ -27,3 +27,4 @@ if (isset($_GET['id'])) {
     echo "<div class='container'><p>Invalid or missing department ID.</p></div>";
     exit();
 }
+?>
