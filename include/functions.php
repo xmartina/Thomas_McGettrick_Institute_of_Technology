@@ -7,6 +7,7 @@ $row = $result->fetch_assoc();
 
 $site_name = $row["site_name"];
 $site_dec = $row["site_dec"];
+$siteUrl = $row["site_url"];
 $site_phone = $row["phone"];
 $site_email = $row["email"];
 $site_address = $row["address"];
