@@ -61,7 +61,7 @@
                             while ($row = $result->fetch_assoc()) {
                                 $book_id = $row['book_id'];
                                 $dep_name = htmlspecialchars($row['dep_name']); // Sanitize the department name for HTML output
-                                $link = $site_url . 'departments/pages?id=' . $book_id; // Construct the link with the book_id as a GET parameter
+                                $link = $siteUrl . 'departments/pages?id=' . $book_id; // Construct the link with the book_id as a GET parameter
 
                                 // Generate the list item with the link
                                 echo '<li><a href="' . $link . '">' . $dep_name . '</a></li>';
