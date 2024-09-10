@@ -42,7 +42,7 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                        <a href="invoice-list.html"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List E-Books</a>
+                        <a href="javascript:void(0);"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List E-Books</a>
                     </li>
                     <li>
                         <a href="<?=$siteUrl?>cms/liberian/add_book"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Add E-Book</a>
