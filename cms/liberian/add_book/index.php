@@ -109,14 +109,21 @@ include_once($rootDir . 'cms/partials/header.php');
                         }
                     }
                     ?>
+
                     <script>
-                        // Automatically hide the alert after 2 seconds (2000 milliseconds)
-                        setTimeout(function() {
-                            const alerts = document.querySelectorAll('.alert');
-                            alerts.forEach(alert => {
-                                alert.style.display = 'none';
-                            });
-                        }, 2000);
+                        document.addEventListener('DOMContentLoaded', function() {
+                            // Automatically hide the alert after 2 seconds (2000 milliseconds)
+                            setTimeout(function() {
+                                const alerts = document.querySelectorAll('.alert');
+                                alerts.forEach(alert => {
+                                    alert.style.transition = 'opacity 0.5s ease-out';
+                                    alert.style.opacity = '0';
+                                    setTimeout(() => {
+                                        alert.style.display = 'none';
+                                    }, 500); // Wait for the transition to finish before setting display to 'none'
+                                });
+                            }, 2000);
+                        });
                     </script>
                 </div>
                 <form action="" method="post" enctype="multipart/form-data">
