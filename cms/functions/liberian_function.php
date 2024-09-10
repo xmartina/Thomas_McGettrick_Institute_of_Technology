@@ -69,6 +69,7 @@ if ($gender == 1) {
 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
+    include_once($rootDir . 'cms/functions/main_function.php'); // Include your database connection
 
     // Get form data
     $book_name = $_POST['book_name'];
@@ -80,7 +81,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
 
     // Handle Book Type and File Uploads
     if ($book_type == '1') { // If book type is PDF
-        // Handle PDF Upload
         if (isset($_FILES['pdf_file']) && $_FILES['pdf_file']['error'] == 0) {
             $pdf_dir = $rootDir . 'front_added/pdf/';
             $pdf_name = basename($_FILES['pdf_file']['name']);
@@ -89,10 +89,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
             if (move_uploaded_file($_FILES['pdf_file']['tmp_name'], $pdf_path)) {
                 $book_link = $pdf_path; // Save path to database
             } else {
-                die('Failed to upload PDF.');
+                header('Location: /cms/liberian/add_book/msg?=error_uploading_pdf');
+                exit();
             }
         } else {
-            die('PDF file is required.');
+            header('Location: /cms/liberian/add_book/msg?=pdf_required');
+            exit();
         }
     } elseif ($book_type == '2') { // If book type is Link
         $book_link = $_POST['book_link'];
@@ -107,24 +109,27 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
         if (move_uploaded_file($_FILES['book_cover']['tmp_name'], $cover_path)) {
             $book_cover = $cover_path; // Save cover path to database
         } else {
-            die('Failed to upload book cover.');
+            header('Location: /cms/liberian/add_book/msg?=error_uploading_cover');
+            exit();
         }
     } else {
-        die('Book cover is required.');
+        header('Location: /cms/liberian/add_book/msg?=cover_required');
+        exit();
     }
 
     // Prepare and execute SQL query to insert data
-    $sql = "INSERT INTO e_book (book_name, book_link, book_type, dpt_id, book_cover, author) 
+    $sql = "INSERT INTO books (book_name, book_link, book_type, dpt_id, book_cover, author) 
             VALUES (?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("ssisss", $book_name, $book_link, $book_type, $dpt_id, $book_cover, $author);
 
     if ($stmt->execute()) {
-        echo 'Book added successfully.';
+        header('Location: /cms/liberian/add_book/msg=book_added_successfully');
+        exit();
     } else {
-        echo 'Error: ' . $stmt->error;
+        header('Location: /cms/liberian/add_book/msg=error_adding_book');
+        exit();
     }
-
 
     $stmt->close();
     $conn->close();

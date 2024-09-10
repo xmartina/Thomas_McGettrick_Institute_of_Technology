@@ -43,6 +43,72 @@ include_once($rootDir . 'cms/partials/header.php');
             <div class="card h-100 p-0">
                 <div class="card-header border-bottom bg-base py-16 px-24">
                     <h6 class="text-lg fw-semibold mb-0">Add E-Book</h6>
+                    <?php
+                    if (isset($_GET['msg'])) {
+                        $msg = $_GET['msg'];
+                        if ($msg == 'book_added_successfully') {
+                            echo '<div class="alert alert-success bg-success-100 text-success-600 border-success-100 px-24 py-11 mb-0 fw-semibold text-lg radius-8 d-flex align-items-center justify-content-between" role="alert">
+                    <div class="d-flex align-items-center gap-2">
+                        <iconify-icon icon="akar-icons:double-check" class="icon text-xl"></iconify-icon>
+                        Book added successfully!
+                    </div>
+                    <button class="remove-button text-success-600 text-xxl line-height-1" onclick="this.parentElement.style.display=\'none\';">
+                        <iconify-icon icon="iconamoon:sign-times-light" class="icon"></iconify-icon>
+                    </button>
+                </div>';
+                        } elseif ($msg == 'error_adding_book') {
+                            echo '<div class="alert alert-danger bg-danger-100 text-danger-600 border-danger-100 px-24 py-11 mb-0 fw-semibold text-lg radius-8 d-flex align-items-center justify-content-between" role="alert">
+                    <div class="d-flex align-items-center gap-2">
+                        <iconify-icon icon="mdi:alert-circle-outline" class="icon text-xl"></iconify-icon>
+                        Error adding the book. Please try again.
+                    </div>
+                    <button class="remove-button text-danger-600 text-xxl line-height-1" onclick="this.parentElement.style.display=\'none\';">
+                        <iconify-icon icon="iconamoon:sign-times-light" class="icon"></iconify-icon>
+                    </button>
+                </div>';
+                        } elseif ($msg == 'error_uploading_pdf') {
+                            echo '<div class="alert alert-danger bg-danger-100 text-danger-600 border-danger-100 px-24 py-11 mb-0 fw-semibold text-lg radius-8 d-flex align-items-center justify-content-between" role="alert">
+                    <div class="d-flex align-items-center gap-2">
+                        <iconify-icon icon="mdi:alert-circle-outline" class="icon text-xl"></iconify-icon>
+                        Error uploading the PDF. Please try again.
+                    </div>
+                    <button class="remove-button text-danger-600 text-xxl line-height-1" onclick="this.parentElement.style.display=\'none\';">
+                        <iconify-icon icon="iconamoon:sign-times-light" class="icon"></iconify-icon>
+                    </button>
+                </div>';
+                        } elseif ($msg == 'pdf_required') {
+                            echo '<div class="alert alert-danger bg-danger-100 text-danger-600 border-danger-100 px-24 py-11 mb-0 fw-semibold text-lg radius-8 d-flex align-items-center justify-content-between" role="alert">
+                    <div class="d-flex align-items-center gap-2">
+                        <iconify-icon icon="mdi:alert-circle-outline" class="icon text-xl"></iconify-icon>
+                        PDF file is required.
+                    </div>
+                    <button class="remove-button text-danger-600 text-xxl line-height-1" onclick="this.parentElement.style.display=\'none\';">
+                        <iconify-icon icon="iconamoon:sign-times-light" class="icon"></iconify-icon>
+                    </button>
+                </div>';
+                        } elseif ($msg == 'error_uploading_cover') {
+                            echo '<div class="alert alert-danger bg-danger-100 text-danger-600 border-danger-100 px-24 py-11 mb-0 fw-semibold text-lg radius-8 d-flex align-items-center justify-content-between" role="alert">
+                    <div class="d-flex align-items-center gap-2">
+                        <iconify-icon icon="mdi:alert-circle-outline" class="icon text-xl"></iconify-icon>
+                        Error uploading the book cover. Please try again.
+                    </div>
+                    <button class="remove-button text-danger-600 text-xxl line-height-1" onclick="this.parentElement.style.display=\'none\';">
+                        <iconify-icon icon="iconamoon:sign-times-light" class="icon"></iconify-icon>
+                    </button>
+                </div>';
+                        } elseif ($msg == 'cover_required') {
+                            echo '<div class="alert alert-danger bg-danger-100 text-danger-600 border-danger-100 px-24 py-11 mb-0 fw-semibold text-lg radius-8 d-flex align-items-center justify-content-between" role="alert">
+                    <div class="d-flex align-items-center gap-2">
+                        <iconify-icon icon="mdi:alert-circle-outline" class="icon text-xl"></iconify-icon>
+                        Book cover is required.
+                    </div>
+                    <button class="remove-button text-danger-600 text-xxl line-height-1" onclick="this.parentElement.style.display=\'none\';">
+                        <iconify-icon icon="iconamoon:sign-times-light" class="icon"></iconify-icon>
+                    </button>
+                </div>';
+                        }
+                    }
+                    ?>
                 </div>
                 <form action="" method="post" enctype="multipart/form-data">
                     <div class="card-body p-24">
@@ -106,8 +172,8 @@ include_once($rootDir . 'cms/partials/header.php');
                         </div>
 
                         <!-- Submit Button -->
-                        <div class="col-12">
-                            <button type="submit" name="submit" class="btn btn-primary">Add Book</button>
+                        <div class="col-12 py-3">
+                            <button type="submit" name="submit" class="btn btn-primary w-75">Add Book</button>
                         </div>
                     </div>
                 </form>
